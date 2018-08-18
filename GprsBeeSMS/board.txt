@@ -1,0 +1,2 @@
+# GprsBeeSMS build property overrides
+#
