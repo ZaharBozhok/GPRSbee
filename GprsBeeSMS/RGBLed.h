@@ -17,6 +17,7 @@
 #endif
 
 enum RGBColor {
+	Black= 0b000,
 	White = 0b111,
 	Red = 0b100,
 	Green = 0b010,
