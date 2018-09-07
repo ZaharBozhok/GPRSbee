@@ -52,18 +52,11 @@ void loop()
 	if (weight < 0)
 		weight *= -1;
 	sendDataToServer(weight, temp, voltage);
-	for (int i = 0; i < 5; i++)
-	{
+	rgb.Off();
+	for (int i = 0; i < 60; i++)
 		for (int j = 0; j < 30; j++)
-		{
-			rgb.On(Red);
 			delay(1000);
-			rgb.On(White);
-			delay(1000);
-		}
-		rgb.On(Magenta);
-		delay(1000);
-	}
+	
 }
 
 
